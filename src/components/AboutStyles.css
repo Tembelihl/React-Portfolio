@@ -1,0 +1,84 @@
+.about__container {
+    display: grid;
+    grid-template-columns: max-content 35% 50%;
+    gap: 15%;
+}
+
+.about {
+  width: 60%;  
+  height: 80vh;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    height: 35rem;
+    width: 25%;
+	display: inline-flex;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.heading {
+   /* text-align: center; */
+   padding: 8rem 0 6rem;
+   margin-left: 400px;
+   background-color: black;
+}
+
+.heading p {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 2rem 0 2.6rem;
+    
+    
+}
+      
+.heading p {
+    margin-right: 300px;
+}
+
+.about__me-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .about__me-icons img {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    size: 20px;
+  }
+
+  .btn__about{
+    background-color: #FF9800;
+    color:#ffffff;
+    border:2px solid transparent;
+    padding:10px 35px;
+    border-radius: 30px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.5s ease;
+    margin-top: 55px;
+  }
+  
+  .btn__about:hover{
+    background-color: transparent;
+    border-color:#FF9800;
+    color:#FF9800;
+  }
+  
+  .btn__about:focus{
+    outline: none;
+  }
