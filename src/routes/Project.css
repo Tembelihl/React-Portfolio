@@ -1,0 +1,49 @@
+.project__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    padding: 100px;
+    
+}
+
+.project__item{
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.project__item:hover{
+    transition: var(--color-primary-varient);
+    background: transparent;
+}
+
+.project__item-image{
+    width: 300%;
+    height: 300px;
+}
+
+.project__item-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project__item h3{
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*---------Media Quieries for Medium Devices-----*/
+
+@media screen and (max-width: 1024px) {
+.project__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+}
+
+/*---------Media Quieries for Small Devices-----*/
+

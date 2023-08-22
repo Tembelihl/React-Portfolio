@@ -8,6 +8,7 @@ import ReactImg from "../Pictures/React.bg.jpg"
 import NodeImg from "../Pictures/Node-js.bg.jpg"
 import pythonImg from "../Pictures/python.bg.jpg"
 import JavaImg from "../Pictures/Java.bg.jpg"
+
 import { Link } from "react-router-dom";
 
 const About = () => {
