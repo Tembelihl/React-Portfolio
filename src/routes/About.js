@@ -8,7 +8,7 @@ const About = () => {
     <div>
     <Navbar />
     <AboutImg />
-    <Footer/>
+    {/* <Footer/> */}
   </div>
   )
 }

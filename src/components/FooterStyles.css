@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     padding: 6rem 0;
-    background-color: #d4922e;
+    background-color: #000;
     ;
 }
 
@@ -21,6 +21,11 @@
     padding: 1rem;
 }
 
+.left__title h4{
+    margin-left: 120px;
+    color: #FF9800;
+}
+
 .location{
     display: flex;
     margin-bottom: 0.8rem;
@@ -35,8 +40,13 @@
     max-width: 100%;
 }
 
+.right h4{
+    margin-left: 120px;
+    color: #FF9800;
+}
+
 .social {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 h4 {
