@@ -1,16 +1,33 @@
 import "./FormStyles.css";
 import React from 'react'
+import {useState} from 'react'
 
 const Form = () => {
+    const [data, setData] = useState({name:"", email:"", message:""});
+    const handleChange = (e) =>{
+        const name = e.target.name;
+        const value = e.target.value;
+        setData({...data, [name]: value})
+    }
+
+    const handleSubmit = (e) =>{
+        e.prevenDefault()
+        alert(data)
+
+    }
   return <div className="form">
-  <form>
-  <label>Your Name</label>
-  <input type="text" value="Type your name here"/>
-  <label>Your Email</label>
-  <input type="text" value="Type your email here"/>
-  <label>Message</label>
-  <textarea rows="6" placeholder="Type your message here"></textarea>
-  <button className="btn">Send Message</button>
+    <h1>Contact <span>Here</span></h1>
+    <form method='post' onSubmit={handleSubmit}>
+    <label>Full Name</label>
+    <input type="text" name="name" id="" onChange={handleChange} value={data.name} placeholder="Enter Name"/>
+    <label>Email</label>
+    <input type="email" name="email" id="" onChange={handleChange} value={data.email} placeholder="example@gmail.com"/>
+    <label>Phone</label>
+    <input type="phone" name="phone" id="" onChange={handleChange} value={data.phone} placeholder="+27"/>
+    <label>Message</label>
+    <textarea name="message" id="" cols="40" onChange={handleChange} value={data.message} row="10" placeholder="Type message Here..."/>
+    <button type="submit">Send Message</button>
+    <p>{data.name} {data.email} {data.phone} {data.message}</p>
   </form>
 </div>
 };

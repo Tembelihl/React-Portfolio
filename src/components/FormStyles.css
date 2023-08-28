@@ -20,5 +20,42 @@ form input, form textarea{
     font-size: 1rem;
     font-style: italic;
     border-radius: 1rem;
-    
+    border-color: #FF9800;
+    cursor: pointer;
 }
+
+form textarea{
+    height: 100px;
+}
+.form h1{
+    margin-left: 500px;
+}
+
+.form span{
+    color: #FF9800;
+}
+
+.form button{
+    background-color: #FF9800;
+    color:#ffffff;
+    border:2px solid transparent;
+    padding:10px 35px;
+    border-radius: 30px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.5s ease;
+    }
+    
+    .form button:hover{
+    background-color: transparent;
+    border-color:#FF9800;
+    color:#FF9800;
+    }
+    
+    .form button:focus{
+    outline: none;
+    }
