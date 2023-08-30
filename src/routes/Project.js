@@ -20,28 +20,28 @@ const Project = () => {
             <img src={MzamoImg} alt="FinanceImg"/>
         </div>
         <h3>Mzamomtsha Website</h3>
-        <a href="http://github.com" className='btn__project'>Github</a>
+        <a href="https://github.com/Tembelihl/Mzamomtsha-Website" className='btn__project'>Github</a>
     </article>
     <article className='project__item'>
         <div className="project__item-image">
             <img src={PortfolioImg} alt="FinanceImg"/>
         </div>
         <h3>Portfolio Website</h3>
-        <a href="http://github.com" className='btn__project'>Github</a>
+        <a href="https://github.com/Tembelihl/Personal-Portfolio" className='btn__project'>Github</a>
     </article>
     <article className='project__item'>
         <div className="project__item-image">
             <img src={ChatImg} alt="ChatImg"/>
         </div>
         <h3>Chat App</h3>
-        <a href="http://github.com" className='btn__project'>Github</a>
+        <a href="https://github.com/Tembelihl/Chat-App" className='btn__project'>Github</a>
     </article>
     <article className='project__item'>
         <div className="project__item-image">
             <img src={FinanceImg} alt="FinanceImg"/>
         </div>
         <h3>Finance Calc</h3>
-        <a href="http://github.com" className='btn__project'>Github</a>
+        <a href="https://github.com/Tembelihl/Financial-Calculator" className='btn__project'>Github</a>
     </article>
   </div>
   </div>

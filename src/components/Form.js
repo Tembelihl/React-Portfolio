@@ -25,9 +25,8 @@ const Form = () => {
     <label>Phone</label>
     <input type="phone" name="phone" id="" onChange={handleChange} value={data.phone} placeholder="+27"/>
     <label>Message</label>
-    <textarea name="message" id="" cols="40" onChange={handleChange} value={data.message} row="10" placeholder="Type message Here..."/>
-    <button type="submit" class="btn btn-primary">Send Message</button>
-    <p>{data.name} {data.email} {data.phone} {data.message}</p>
+    <textarea name="message" id="" cols="30" onChange={handleChange} value={data.message} row="10" placeholder="Type message Here..."/>
+    <button type='submit'>Send Message</button>
   </form>
 </div>
 };

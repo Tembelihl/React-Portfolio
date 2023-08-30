@@ -14,12 +14,13 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    height: 35rem;
-    width: 25%;
-	  display: inline-flex;
-    position: absolute;
-    top: 160px;
-    left: 50px;
+    margin: 5px;
+
+	  /* display: flex; */
+}
+.about__me-image img {
+  width: 450px;
+  height: 700px;
 }
 
 .about__me-image:hover {
@@ -27,11 +28,18 @@
 }
 
 
-.heading {
-   padding: 8rem 0 6rem;
-   margin-left: 400px;
+.container {
+   padding: 8rem 1rem;
    background-color: #1b1a1a;
    font-size: 20px;
+   display: flex; 
+  flex-direction: row;
+  width: fit-content;
+}
+.heading {
+  position: absolute;
+  right: 400px;
+
 }
 
 .heading h1{
@@ -48,7 +56,7 @@
     text-decoration-thickness: 8px;
   }
 
-  .heading h5{
+  h5{
     color: #FF9800;
     margin-left: 240px;
     font-size:20px;
@@ -56,29 +64,43 @@
     font-style: italic;
   }
 
-  .heading__skills h1{
-    margin-left: 130px;
+  .heading__skills {
+    
+    position: absolute;
+    bottom: 200px;
+    right: 300px;
+    color: #fff;
+    
+  }
+  .heading__skills h1 {
+    margin-left: 250px;
+  }
+  .heading__skills h5{
+    margin-left: 350px;
   }
 
 .box p {
     background-color: #1b1a1a;
     border: 1px solid #1b1a1a;
     border-radius: 5px;
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 2rem 0 2.6rem;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 600px;
+    text-align: justify;
 }
       
-.box p {
-    margin-right: 300px;
-}
+
 
 .about__me-icons {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 25px;
+    position: absolute;
+    bottom: 120px;
+    right: 90px;
   }
   
   .about__me-icons img {
@@ -88,7 +110,7 @@
     size: 20px;
   }
 
-  .btn__about{
+  a.download.minimalist{
     background-color: #FF9800;
     color:#ffffff;
     border:2px solid transparent;
@@ -103,28 +125,37 @@
     transition: all 0.5s ease;
     margin-top: 55px;
     margin-left: 200px;
+    position: absolute;
+    bottom: 50px;
+    right: 350px;
   }
   
-  .btn__about:hover{
+  a.download:hover{
     background-color: transparent;
     border-color:#FF9800;
     color:#FF9800;
   }
   
-  .btn__about:focus{
+  a.download:focus{
     outline: none;
   }
 
-  @media screen and (max-width: 600px) {
-    .heading {
-      width: 50%;
+  @media screen and (max-width: 390px) {
+    .container {
+      /* width: 50%;
+      display: block
+      ; */
+      width: 600px;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .box {
+      position: relative;
     }
 
-    .heading p {
+
+    .box p {
         width: 250%;
-        margin-bottom: 10rem;
-        padding: 0
-        ;
       }
 
     .about__me-icons {
