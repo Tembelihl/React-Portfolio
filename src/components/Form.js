@@ -5,7 +5,6 @@ import React from "react";
 
 const Form = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -23,14 +22,14 @@ const Form = () => {
   <h1>Contact <span>Here</span></h1>
       <form ref={form} onSubmit={sendEmail}>
       <label> Full Name</label>
-      <input type="text" name="Enter Name" required/>
+      <input type="text" name="from_name" placeholder='Enter Name' required/>
       <label>Email</label>
-      <input type="email" name="example@gmail.com" required/>
+      <input type="email" name="from_email" placeholder= 'example@gmail.com' required/>
       <label>Phone</label>
-      <input type="phone" name="+27" required/>
+      <input type="phone" name="from_phone" placeholder='+27' required/>
       <label>Message</label>
-      <textarea name=" Type Message Here..." required/>
-      <button type="submit>"> Send Message</button>
+      <textarea name= "message" placeholder='Type Message Here...' required/>
+      <button type="submit" value="Send" />
     </form>
     </div> 
 
