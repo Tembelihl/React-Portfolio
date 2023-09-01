@@ -140,36 +140,36 @@
     outline: none;
   }
 
-  @media screen and (max-width: 390px) {
+  /*-------------------MEDIUM DEVICES-----------------*/
+  @media screen and (max-width: 375px) {
     .container {
-      /* width: 50%;
-      display: block
-      ; */
-      width: 600px;
-      flex-direction: column;
-      overflow: hidden;
+      grid-template-columns: 1fr;
+      gap: 0;
     }
-    .box {
-      position: relative;
+  
+    .about__me {
+      /* width: 50%; */
+      margin: 2rem auto 4rem;
     }
-
-
-    .box p {
-        width: 250%;
-      }
-
-    .about__me-icons {
-        width: 200%;
-        display: flex;
-        flex-wrap: wrap;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        margin-top: 2rem;
-      }
-
+  
     .about__me-image {
-        width: 80%;
-        height: 100%;
-        margin-bottom: 5rem ;
-      }
+      margin-bottom: 0;
+      width: 78%;
+      height: 80%;
+    }
+  
+    .heading {
+      margin-top: 0;
+    }
+  
+    .box p{
+      margin: 1rem 0 1.5rem;
+      vertical-align: bottom;
+    }
+  
+    .about__me-icons {
+      grid-template-columns: 1fr 1fr;
+      bottom: 500px;
+
+    }
   }
