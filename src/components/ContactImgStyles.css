@@ -30,7 +30,7 @@
 .contact .title{
     position: absolute;
     transform:translate(-50%, -50%);
-    top: 50%;
+    top: 18%; 
     left: 50%;
     text-align: center;
 }
@@ -46,7 +46,6 @@
 }
 
 .contact .title p{
-
     font-size:20px;
     font-weight: 300;
     font-style: italic;

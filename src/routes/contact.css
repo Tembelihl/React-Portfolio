@@ -1,0 +1,14 @@
+ContactImg {
+    z-index: -1;
+}
+Form{
+    z-index: 1;
+    position: absolute;
+    margin-left: 400px;
+    width: 100%;
+    height: 70%;
+    bottom: 0px;
+    left: 0px;
+    right: 50px;
+
+}

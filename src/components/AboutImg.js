@@ -35,7 +35,7 @@ const About = () => {
         </div>
     <div className="heading__skills">
         <h5>What I've learnt</h5>
-        <h1>Skills&Experience</h1>
+        <h1>Skills & Experience</h1>
     </div>
         <div className="about__me-icons">
         <img src={HtmlImg} alt="" />

@@ -1,26 +1,28 @@
-.project {
+.project__title {
     text-align: center;
     margin: 0 auto;
   }
   
-  .project h1 {
-    color: #fff;
-    font-size: 60px;
-    margin-bottom: 1.5rem;
-    padding: 8rem 0 6rem;
-    text-align: center;
-  }
+  .project__title h1{
+    font-size: 50px;
+	  margin: 0;
+	  color:#ffffff;
+	  text-transform: uppercase;
+	  font-weight: 900;
+	  letter-spacing: 10px;
+    justify-content: center;
+    top: 0;
+}
 
-  .project h5{
-    color: #FF9800;
-    position: absolute;
-    top: 14%;
-    margin-left: 600PX;
-    font-size:20px;
-    font-weight: 300;
-    font-style: italic;
-    transform: translate(-30%, -30%);
-  }
+.project__title h5{
+  font-size:20px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: capitalize;
+  color:#FF9800;
+  margin:0;
+  top: 0;
+}
 
   .project::after{
     opacity: 0.6;
@@ -37,7 +39,6 @@
 .project__item{
     width: 25%;
     margin-bottom: 20px;
-
 }
 
 .project__item:hover{
@@ -62,7 +63,7 @@
 .project__item h3{
     margin-top: 10px;
      color: #fff;
-     text-align: center;
+     /* text-align: center; */
 }
 
 .btn__project{

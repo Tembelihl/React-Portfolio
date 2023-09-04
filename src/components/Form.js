@@ -19,7 +19,6 @@ const Form = () => {
   };
     
   return <div className="form">
-  <h1>Contact <span>Here</span></h1>
       <form ref={form} onSubmit={sendEmail}>
       <label> Full Name</label>
       <input type="text" name="from_name" placeholder='Enter Name' required/>
@@ -28,8 +27,8 @@ const Form = () => {
       <label>Phone</label>
       <input type="phone" name="from_phone" placeholder='+27' required/>
       <label>Message</label>
-      <textarea name= "message" placeholder='Type Message Here...' required/>
-      <button type="submit" value="Send" />
+      <textarea name= "from_message" placeholder='Type Message Here...' required/>
+      <button type="submit" onClick={() => alert("Message sent!")}>Send Message</button>
     </form>
     </div> 
 

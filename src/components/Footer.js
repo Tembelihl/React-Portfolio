@@ -36,10 +36,10 @@ const Footer = () => {
                     <h4>Visit My  Social Media</h4>
                     <p>I am active on the following social media platforms. Please feel free to visit my social media platforms to learn more about my work and to connect with me.</p>
                     <div className="social"></div>
-                    <FaFacebook size={30} style={{color:"#3b5998", marginRight: "1rem" }}/>
+                    <FaFacebook size={30} style={{color:"#fff", marginRight: "1rem" }}/>
                     <FaGithub size={30} style={{color:"#fff", marginRight: "1rem" }}/>
-                    <FaLinkedin size={30} style={{color:"#0072b1", marginRight: "1rem" }}/>
-                    <FaInstagram size={30} style={{color:"#4c68d7", marginRight: "1rem" }}/>
+                    <FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem" }}/>
+                    <FaInstagram size={30} style={{color:"#fff", marginRight: "1rem" }}/>
 
             </div>
         </div>

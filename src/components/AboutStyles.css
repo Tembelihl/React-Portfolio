@@ -12,21 +12,14 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: var(--transition);
     margin: 5px;
-
-	  /* display: flex; */
+	  display: flex;
 }
 .about__me-image img {
   width: 450px;
   height: 700px;
 }
-
-.about__me-image:hover {
-  transform: rotate(0);
-}
-
 
 .container {
    padding: 8rem 1rem;
@@ -73,10 +66,12 @@
     
   }
   .heading__skills h1 {
-    margin-left: 250px;
+    margin-left: 600px;
+    text-align: center;
   }
   .heading__skills h5{
-    margin-left: 350px;
+    margin-left: 600px;
+    text-align: center;
   }
 
 .box p {
