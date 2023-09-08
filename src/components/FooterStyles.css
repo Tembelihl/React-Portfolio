@@ -1,11 +1,11 @@
-.footer{
+.footer {
     width: 100%;
     padding: 6rem 0;
     background-color: #000;
     ;
 }
 
-.footer-container{
+.footer-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
@@ -13,7 +13,7 @@
     grid-gap: 40px;
 }
 
-.left{
+.left {
     height: 100%;
     max-width: 100%;
     display: flex;
@@ -21,17 +21,17 @@
     padding: 1rem;
 }
 
-.left__title h4{
+.left__title h4 {
     margin-left: 120px;
     color: #FF9800;
 }
 
-.location{
+.location {
     display: flex;
     margin-bottom: 0.8rem;
 }
 
-.location p{
+.location p {
     line-height: 30px;
 }
 
@@ -40,7 +40,7 @@
     max-width: 100%;
 }
 
-.right h4{
+.right h4 {
     margin-left: 120px;
     color: #FF9800;
 }
@@ -58,7 +58,7 @@ p {
     font-size: 1.3rem;
 }
 
-@media screen  and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     .footer-container {
         grid-template-columns: 1fr;
     }

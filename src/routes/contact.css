@@ -1,7 +1,8 @@
 ContactImg {
     z-index: -1;
 }
-Form{
+
+Form {
     z-index: 1;
     position: absolute;
     margin-left: 400px;

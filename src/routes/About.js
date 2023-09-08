@@ -6,11 +6,11 @@ import Footer from "../components/Footer";
 const About = () => {
   return (
     <div>
-    <Navbar />
-    <AboutImg />
-    <Footer/>
-  </div>
-  )
-}
+      <Navbar />
+      <AboutImg />
+      <Footer />
+    </div>
+  );
+};
 
-export default About
+export default About;

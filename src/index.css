@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;700;900&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: #1b1a1a;
+
+  background: #1b1a1a;
 }
 
 h1,
@@ -19,15 +20,15 @@ a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
 .btn {
   background-color: #FF9800;
-  color:#ffffff;
-  border:2px solid transparent;
-  padding:10px 35px;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 10px 35px;
   border-radius: 30px;
   line-height: 1.5;
   cursor: pointer;
@@ -38,13 +39,12 @@ ul{
   transition: all 0.5s ease;
 }
 
-.btn-01:hover{
+.btn-01:hover {
   background-color: transparent;
-  border-color:#FF9800;
-  color:#FF9800;
+  border-color: #FF9800;
+  color: #FF9800;
 }
 
-.btn-01:focus{
+.btn-01:focus {
   outline: none;
 }
-

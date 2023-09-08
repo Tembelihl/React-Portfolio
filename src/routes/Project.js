@@ -1,57 +1,85 @@
 import React from "react";
-import './Project.css';
+import "./Projects.css";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import MzamoImg from "../Pictures/mzamo.bg.jpg"
-import ChatImg from "../Pictures/chatapp.bg.jpg"
-import PortfolioImg from "../Pictures/Portfolio.bg.jpg"
-import FinanceImg from "../Pictures/financecalc.bg.jpg"
+import MzamoImg from "../Pictures/mzamo.bg.jpg";
+import ChatImg from "../Pictures/chatapp.bg.jpg";
+import PortfolioImg from "../Pictures/Portfolio.bg.jpg";
+import FinanceImg from "../Pictures/financecalc.bg.jpg";
 
 const Project = () => {
-  return <div>
-    <Navbar/>
-    <div className='project'>
-    <div className="project__title">
-        <h5>My Recent Work</h5>
-       <h1>Projects</h1>
+  return (
+    <div>
+      <Navbar />
+      {/* <div className="project_section" class="container">
+ </div>
+ <div className="project__heading">
+ <p>My Recent Work</p>
+    <h1>Project</h1>
+</div> */}
+
+      <div className="project_section" class="container"></div>
+      <div className="title">
+        <h1>Project</h1>
+        <p>My Recent Work</p>
+      </div>
+      <div class="project_all_card">
+        <div class="project_card">
+          <img src={MzamoImg} alt="" />
+          <div class="project_card_info">
+            <h2>Mzamomtsha Website</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Recusandae velit, est vero fugit sunt laborum?
+            </p>
+            <a href="#" className="btn__project" target="link">
+              Github
+            </a>
+          </div>
+        </div>
+        <div class="project_card">
+          <img src={ChatImg} alt="" />
+          <div class="project_card_info">
+            <h2>Chat App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Recusandae velit, est vero fugit sunt laborum?
+            </p>
+            <a href="#" className="btn__project" target="link">
+              Github
+            </a>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img src={PortfolioImg} alt="" />
+          <div class="project_card_info">
+            <h2>Portfolio Website</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Recusandae velit, est vero fugit sunt laborum?
+            </p>
+            <a href="#" className="btn__project" target="link">
+              Github
+            </a>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img src={FinanceImg} alt="" />
+          <div class="project_card_info">
+            <h2>Finance Calculator</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Recusandae velit, est vero fugit sunt laborum?
+            </p>
+            <a href="#" className="btn__project" target="link">
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  );
+};
 
-    <div className="project__container">
-    <article className='project__item'>
-        <div className="project__item-image">
-            <img src={MzamoImg} alt="FinanceImg"/>
-        </div>
-    <div className='project__text'>
-        <h3>Mzamomtsha Website</h3>
-        <a href="https://github.com/Tembelihl/Mzamomtsha-Website" className='btn__project'>Github</a>
-    </div>
-    </article>
-    <article className='project__item'>
-        <div className="project__item-image">
-            <img src={PortfolioImg} alt="FinanceImg"/>
-        </div>
-        <h3>Portfolio Website</h3>
-        <a href="https://github.com/Tembelihl/Personal-Portfolio" className='btn__project'>Github</a>
-    </article>
-    <article className='project__item'>
-        <div className="project__item-image">
-            <img src={ChatImg} alt="ChatImg"/>
-        </div>
-        <h3>Chat App</h3>
-        <a href="https://github.com/Tembelihl/Chat-App" className='btn__project'>Github</a>
-    </article>
-    <article className='project__item'>
-        <div className="project__item-image">
-            <img src={FinanceImg} alt="FinanceImg"/>
-        </div>
-        <h3>Finance Calc</h3>
-        <a href="https://github.com/Tembelihl/Financial-Calculator" className='btn__project'>Github</a>
-    </article>
-  </div>
-  </div>
-    <Footer/>
-  </div>
-
-}
-
-export default Project
+export default Project;

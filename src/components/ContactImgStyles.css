@@ -3,6 +3,7 @@
     height: 100vh;
     position: relative;
 }
+
 .into-img {
     width: 100%;
     height: 100%;
@@ -27,30 +28,29 @@
     width: 100%;
 }
 
-.contact .title{
+.contact .title {
     position: absolute;
-    transform:translate(-50%, -50%);
-    top: 18%; 
+    transform: translate(-50%, -50%);
+    top: 18%;
     left: 50%;
     text-align: center;
 }
 
-.contact .title h1{
+.contact .title h1 {
     font-size: 50px;
-	margin: 0;
-	color:#ffffff;
-	text-transform: uppercase;
-	font-weight: 900;
-	letter-spacing: 10px;
+    margin: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10px;
     justify-content: center;
 }
 
-.contact .title p{
-    font-size:20px;
+.contact .title p {
+    font-size: 20px;
     font-weight: 300;
     font-style: italic;
     text-transform: capitalize;
-	color:#FF9800;
-	margin:0;
+    color: #FF9800;
+    margin: 0;
 }
-

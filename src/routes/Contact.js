@@ -9,10 +9,10 @@ const Contact = () => {
     <div>
       <Navbar />
       <ContactImg />
-      <Form/>
-       <Footer />
+      <Form />
+      <Footer />
     </div>
   );
 };
 
-export default Contact
+export default Contact;

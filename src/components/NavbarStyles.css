@@ -8,11 +8,13 @@
     z-index: 100;
     color: black;
 }
-.header-bg h1{
+
+.header-bg h1 {
     color: #FF9800;
     background-color: white;
     transition: 0.5s;
 }
+
 .nav-menu {
     display: flex;
 }
@@ -53,11 +55,12 @@
     .nav-menu.active {
         left: 0;
     }
-    .nav-menu li{
+
+    .nav-menu li {
         padding: 1rem 0;
     }
 
-    .nav-menu li a{
+    .nav-menu li a {
         font-size: 1rem;
     }
 
@@ -66,12 +69,12 @@
     }
 }
 
-.about-section .about-img .img-box .shape-02{
+.about-section .about-img .img-box .shape-02 {
     position: absolute;
     height: 30px;
     width: 30px;
-    border:2px solid #FF9800;
-    left:30px;
-    top:30px;
-    animation:ani01 5s linear infinite;
+    border: 2px solid #FF9800;
+    left: 30px;
+    top: 30px;
+    animation: ani01 5s linear infinite;
 }
