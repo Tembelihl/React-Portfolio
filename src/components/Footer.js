@@ -54,12 +54,18 @@ const Footer = () => {
             and to connect with me.
           </p>
           <div className="social"></div>
-          <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+          <FaGithub
+            href="https://github.com/Tembelihl"
+            size={30}
+            style={{ color: "#fff", marginRight: "1rem" }}
+          />
           <FaLinkedin
+            href="https://www.linkedin.com/in/your-username"
             size={30}
             style={{ color: "#fff", marginRight: "1rem" }}
           />
           <FaInstagram
+            href="https://www.instagram.com/your-username"
             size={30}
             style={{ color: "#fff", marginRight: "1rem" }}
           />

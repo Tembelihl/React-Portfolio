@@ -119,4 +119,7 @@
     .home .content p {
         font-size: 1.4rem;
     }
+    .home .content h1 {
+        font-size: 40px;
+    }
 }

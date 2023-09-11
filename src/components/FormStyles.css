@@ -66,3 +66,13 @@ form textarea {
 .form button:focus {
     outline: none;
 }
+
+@media screen and (max-width: 640px) {
+    form textarea {
+        height: 100px;
+}
+
+form {
+    padding: 0;
+}
+}

@@ -1,6 +1,6 @@
 import "./NavbarStyles.css";
-
 import React, { useState } from "react";
+import logo from "../Pictures/logo.bg.jpg";
 import { Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header hearder-bg" : "header"}>
       <Link to="/">
-        <h1>LIHLE.</h1>
+        <img src={logo} alt="logo" className="logo" />
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>

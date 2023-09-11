@@ -12,7 +12,7 @@ import resume from "../Pictures/Minimalist CV Resume.pdf";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="about__container">
       <div className="about__me">
         <div className="about__me-image">
           <img src={AboutImg} alt="About Image" />
@@ -36,7 +36,7 @@ const About = () => {
       </div>
       <div className="heading__skills">
         <h5>What I've learnt</h5>
-        <h1>Skills & Experience</h1>
+        <h1> My Skills</h1>
       </div>
       <div className="about__me-icons">
         <img src={HtmlImg} alt="" />

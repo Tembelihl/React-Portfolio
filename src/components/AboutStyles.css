@@ -1,15 +1,16 @@
 .about__container {
   display: grid;
-  grid-template-columns: max-content 35% 50%;
-  gap: 15%;
+  grid-template-columns: repeat(2, 2fr) ;
 }
 
 .about {
+  
   width: 60%;
   height: 80vh;
 }
 
 .about__me-image {
+  
   border-radius: 2rem;
   overflow: hidden;
   transition: var(--transition);
@@ -20,6 +21,8 @@
 .about__me-image img {
   width: 450px;
   height: 700px;
+  border-radius: 30px;
+  margin-top: 115px;
 }
 
 .container {
@@ -34,7 +37,7 @@
 .heading {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 18%;
+  top: 20%;
   left: 50%;
   text-align: center;
   margin-left: 200px;
@@ -65,8 +68,6 @@
   right: 300px;
   color: #fff;
   left: 20;
-
-
 }
 
 .heading__skills h1 {
@@ -76,14 +77,8 @@
   text-transform: capitalize;
   font-weight: 900;
   justify-content: center;
-  margin-left: 400px;
-}
-
-.heading__skills h5 {
   margin-left: 600px;
-  text-align: center;
 }
-
 
 .heading__skills h5 {
   font-size: 20px;
@@ -98,12 +93,12 @@
   background-color: #1b1a1a;
   border: 1px solid #1b1a1a;
   border-radius: 5px;
-  /* padding: 20px; */
+  padding: 20px 15px;
   font-size: 20px;
   line-height: 1.5;
   margin-top: 100px;
-  margin-left: 100px;
-  width: 600px;
+  margin-left: 0;
+  width: 100%;
   text-align: justify;
 }
 
@@ -139,7 +134,7 @@ a.download.minimalist {
   display: inline-block;
   transition: all 0.5s ease;
   margin-top: 55px;
-  margin-left: 200px;
+  margin-left: 600px;
   position: absolute;
   bottom: 50px;
   right: 350px;
@@ -156,35 +151,87 @@ a.download:focus {
 }
 
 /*-------------------MEDIUM DEVICES-----------------*/
-@media screen and (max-width: 375px) {
-  .container {
+@media (max-width: 768px) {
+  .about__container {
     grid-template-columns: 1fr;
-    gap: 0;
+    grid-template-columns: max-content 50% 50%;
+    gap: 15%;
   }
 
-  .about__me {
-    /* width: 50%; */
-    margin: 2rem auto 4rem;
+  .header {
+    background-color: black;
+    padding: 0 10px;
+
   }
 
-  .about__me-image {
-    margin-bottom: 0;
-    width: 78%;
-    height: 80%;
+  .logo {
+    width: 100px;
+    height: 2rem;
   }
 
   .heading {
-    margin-top: 0;
+    margin-left: 0;
+    top: 95%;
+    padding-right: 20px;
+    align-items: none;
+
   }
 
+  .heading h1 {
+    font-size: 30px;
+  }
+  .heading h5 {
+    margin-bottom: 10px;
+  }
+
+  .about__me-image {
+    margin:0;
+  }
+
+
+  .about__me-image img {
+    width: 100%;
+    height: 493px;
+    margin-top: 35px;
+}   
+
   .box p {
-    margin: 1rem 0 1.5rem;
-    vertical-align: bottom;
+    width: 100%;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .heading__skills {
+    position: unset;
+    right: 0;
+  }
+
+  .heading__skills h5 {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+  .heading__skills  h1{
+    margin-left: 0;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+
   }
 
   .about__me-icons {
-    grid-template-columns: 1fr 1fr;
-    bottom: 500px;
-
+    position: unset;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr) ;
+    gap: 2rem;
+    margin-top: 30px;
   }
+
+  a.download.minimalist {
+    position: unset;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
 }
