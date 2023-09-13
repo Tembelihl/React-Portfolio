@@ -2,20 +2,16 @@ ContactImg {
     z-index: -1;
 }
 
-Form {
-    z-index: 1;
-    position: absolute;
-    margin-left: 350px;
-    width: 100%;
-    height: 70%;
-    bottom: 0px;
-    left: 0px;
-    right: 50px;
-
-}
-
 @media screen and (max-width: 640px) {
-    .Form{
-        margin-left: 0;
+    .Form {
+        z-index: 1;
+        position: absolute;
+        margin-left: 33px;
+        width: 90%;
+        height: 70%;
+        bottom: 0px;
+        left: 0px;
     }
+
+  
 }

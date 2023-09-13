@@ -32,7 +32,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              +27 653563754
+              +27 653563744
             </h4>
           </div>
           <div className="email">
@@ -53,22 +53,34 @@ const Footer = () => {
             free to visit my social media platforms to learn more about my work
             and to connect with me.
           </p>
-          <div className="social"></div>
-          <FaGithub
-            href="https://github.com/Tembelihl"
-            size={30}
-            style={{ color: "#fff", marginRight: "1rem" }}
-          />
-          <FaLinkedin
-            href="https://www.linkedin.com/in/your-username"
-            size={30}
-            style={{ color: "#fff", marginRight: "1rem" }}
-          />
-          <FaInstagram
-            href="https://www.instagram.com/your-username"
-            size={30}
-            style={{ color: "#fff", marginRight: "1rem" }}
-          />
+          <div className="social">
+            <FaGithub
+              href=""
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+              onClick={() =>
+                window.open("https://github.com/Tembelihl", "_blank")
+              }
+            />
+            <FaLinkedin
+              href=""
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/tembelihle-biyana-3835b9209/"
+                )
+              }
+            />
+            <FaInstagram
+              href=""
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+              onClick={() =>
+                window.open("https://www.instagram.com/your-username", "_blank")
+              }
+            />
+          </div>
         </div>
       </div>
     </div>

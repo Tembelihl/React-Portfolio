@@ -131,9 +131,18 @@
 
 @media (max-width: 768px) {
     @media (max-width: 768px) {
+
+        title h1{
+            font-size: 40px;
+        }
+
+        .title p {
+            font-size: 19px;
+        }
+
         .project_all_card {
           grid-template-columns: 1fr;
-          margin-left: 0;
+          margin-left: -39px;
         }
 
         .project_all_card {

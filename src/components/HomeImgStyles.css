@@ -86,7 +86,7 @@
 }
 
 .btn__homes {
-    background-color: #FF9800;
+    background-color: #ff9900;
     color: #ffffff;
     border: 2px solid transparent;
     padding: 10px 35px;
@@ -102,8 +102,8 @@
 
 .btn__homes:hover {
     background-color: transparent;
-    border-color: #FF9800;
-    color: #FF9800;
+    border-color:#ff9900;
+    color: #ff9900;
 }
 
 .btn__homes:focus {
@@ -119,6 +119,7 @@
     .home .content p {
         font-size: 1.4rem;
     }
+
     .home .content h1 {
         font-size: 40px;
     }

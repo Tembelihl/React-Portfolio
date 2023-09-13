@@ -53,7 +53,7 @@ const Form = () => {
           placeholder="Type Message Here..."
           required
         />
-        <button type="submit">Send Message</button>
+        <button onclick="submit">Send Message</button>
       </form>
     </div>
   );
