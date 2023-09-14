@@ -155,7 +155,7 @@ a.download:focus {
 }
 
  /* Styles for small devices and medium devices */
-@media (max-width: 768px) {
+ @media screen and (max-width: 640px) {
   .about__container {
     grid-template-columns: 1fr;
   }
@@ -175,7 +175,7 @@ a.download:focus {
   .heading {
     margin-left: 0;
     left: 34%;
-    top: 65%;
+    top: 88%;
     align-items: none;
 
   }
@@ -187,12 +187,20 @@ a.download:focus {
   .heading h5 {
     margin-bottom: 10px;
   }
+  
 
   .about__me {
     width: 100%;
     margin-left: 0;
   }
 
+  .title h1{
+    text-transform: none;
+    margin-left: 112px;
+    .title p{
+      margin-left: 100px;
+    }
+  }
 
   .about__me-image {
     margin: 0;
@@ -245,7 +253,7 @@ a.download:focus {
 
   a.download.minimalist {
     position: unset;
-    width: 51%;
+    width: 56%;
     margin-top: 30px;
     margin-left: 100px;
     margin-bottom: 30px;
@@ -253,5 +261,3 @@ a.download:focus {
   }
 
 }
-
-  /* Styles for medium devices */

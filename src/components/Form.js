@@ -2,11 +2,15 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./FormStyles.css";
 import React from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Form = () => {
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     function showAlert() {
       alert("Your message has been sent.");
@@ -25,12 +29,14 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
+          // setMessageSent(true)
           console.log("Message Sent Successfully");
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -53,6 +59,7 @@ const Form = () => {
           placeholder="Type Message Here..."
           required
         />
+        <ReCAPTCHA sitekey="6LdSYSAoAAAAAA13T6AJcMtLZ1FjXBFn2WBGC-Wr" onChange={onChange} />,
         <button onclick="submit">Send Message</button>
       </form>
     </div>

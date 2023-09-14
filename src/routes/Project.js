@@ -12,7 +12,7 @@ const Project = () => {
       <Navbar />
       <div className="project_section" class="container"></div>
       <div className="title">
-        <h1>Project</h1>
+        <h1>Projects</h1>
         <p>My Recent Work</p>
       </div>
       <div class="project_all_card">
