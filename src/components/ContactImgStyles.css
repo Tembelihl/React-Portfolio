@@ -40,7 +40,7 @@
     font-size: 50px;
     margin: 0;
     color: #ffffff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 900;
     letter-spacing: 10px;
     justify-content: center;
@@ -53,4 +53,10 @@
     text-transform: capitalize;
     color: #FF9800;
     margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .contact .title h1 {
+        text-transform: capitalize;
+    }
 }

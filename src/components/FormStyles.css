@@ -21,9 +21,9 @@ Form {
     position: absolute;
     margin-left: 350px;
     width: 100%;
-    height: 70%;
+    height: 75%;
     bottom: 0px;
-    left: 0px;
+    left: -14px;
     right: 50px;
 
 }
@@ -40,7 +40,7 @@ form textarea {
 }
 
 form textarea {
-    height: 100px;
+    height: 150px;
 }
 
 .form h1 {
@@ -93,5 +93,12 @@ form textarea {
     form {
         margin-left: 45px;
         width: 85%;
+    }
+    Form{
+        height: 97%;
+    }
+
+    form button{
+        margin: 20px;
     }
 }

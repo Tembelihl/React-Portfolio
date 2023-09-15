@@ -123,4 +123,13 @@
     .home .content h1 {
         font-size: 40px;
     }
+
+    .image {
+        height: auto;
+      }
+
+      .into-img {
+        background-size: contain;
+      }
+    
 }

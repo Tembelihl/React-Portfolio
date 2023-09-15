@@ -1,5 +1,10 @@
-#project_section {
+/* #project_section {
     padding: 100px 0px;
+} */
+
+.project-main{
+    height: 100%;
+    width: 100%;
 }
 
 #project_heading h1 {
@@ -129,14 +134,19 @@
     outline: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 640px) {
 
+        
+    .project-main{
+    height: 80%;
+    width: 80%;
+    }
         title h1{
             font-size: 40px;
         }
 
         .title p {
-            font-size: 19px;
+            font-size: 13px;
         }
 
         .project_all_card {
@@ -149,7 +159,8 @@
         }
       
         .project_card {
-          width: 300px;
+            width: 277px;
+            margin-left: 46px;
         }
 
         .project_card_info h2 {

@@ -8,17 +8,17 @@ import FinanceImg from "../Pictures/financecalc.bg.jpg";
 
 const Project = () => {
   return (
-    <div>
+    <div className="project-main">
       <Navbar />
       <div className="project_section" class="container"></div>
       <div className="title">
         <h1>Projects</h1>
         <p>My Recent Work</p>
       </div>
-      <div class="project_all_card">
-        <div class="project_card">
+      <div className="project_all_card">
+        <div className="project_card">
           <img src={MzamoImg} alt="" />
-          <div class="project_card_info">
+          <div className="project_card_info">
             <h2>Mzamomtsha Website</h2>
             <p>
               My goal when I created this Mzamomtsha Primary School website was
@@ -36,9 +36,9 @@ const Project = () => {
             </a>
           </div>
         </div>
-        <div class="project_card">
+        <div className="project_card">
           <img src={ChatImg} alt="" />
-          <div class="project_card_info">
+          <div className="project_card_info">
             <h2>Chat App</h2>
             <p>
               My goal when I created this chat app was to provide a platform for

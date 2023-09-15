@@ -59,7 +59,7 @@ const Form = () => {
           placeholder="Type Message Here..."
           required
         />
-        <ReCAPTCHA sitekey="6LdSYSAoAAAAAA13T6AJcMtLZ1FjXBFn2WBGC-Wr" onChange={onChange} />,
+        <ReCAPTCHA sitekey="6LdSYSAoAAAAAA13T6AJcMtLZ1FjXBFn2WBGC-Wr" onChange={onChange} />
         <button onclick="submit">Send Message</button>
       </form>
     </div>
