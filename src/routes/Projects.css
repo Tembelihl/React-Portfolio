@@ -134,7 +134,7 @@
     outline: none;
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
 
         
     .project-main{
@@ -168,10 +168,16 @@
         }
 
         .project_card_info p{
-            font-size: 15px;
+            font-size: 13px;
         }
 
         .btn__project {
             border: 2px solid transparent
       }
   }
+                /*iPhone XR*/
+  /* @media only screen and (max-width: 640px) {
+    .project_card {
+        margin-left: 65px;
+    }
+  } */

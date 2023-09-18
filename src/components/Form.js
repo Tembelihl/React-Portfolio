@@ -43,23 +43,24 @@ const Form = () => {
     <div className="form">
       <form ref={form} onSubmit={sendEmail}>
         <label> Full Name</label>
-        <input type="text" name="from_name" placeholder="Enter Name" required />
+        <input type="text" name="name" placeholder="Enter Name" required />
         <label>Email</label>
         <input
           type="email"
-          name="from_email"
+          name="email"
           placeholder="example@gmail.com"
           required
         />
         <label>Phone</label>
-        <input type="phone" name="from_phone" placeholder="+27" required />
+        <input type="phone" name="phone" placeholder="+27" required />
         <label>Message</label>
-        <textarea
-          name="from_message"
-          placeholder="Type Message Here..."
-          required
-        />
-        <ReCAPTCHA sitekey="6LdSYSAoAAAAAA13T6AJcMtLZ1FjXBFn2WBGC-Wr" onChange={onChange} />
+        <textarea name="message" placeholder="Type Message Here..." required />
+        <div className="recapture">
+          <ReCAPTCHA
+            sitekey="6LdSYSAoAAAAAA13T6AJcMtLZ1FjXBFn2WBGC-Wr"
+            onChange={onChange}
+          />
+        </div>
         <button onclick="submit">Send Message</button>
       </form>
     </div>

@@ -41,6 +41,7 @@ form textarea {
 
 form textarea {
     height: 150px;
+    /* margin-bottom: 5%; */
 }
 
 .form h1 {
@@ -66,8 +67,10 @@ form textarea {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: 20;
     display: inline-block;
     transition: all 0.5s ease;
+    margin-top: 5%;
 }
 
 .form button:hover {
@@ -80,9 +83,26 @@ form textarea {
     outline: none;
 }
 
-@media screen and (max-width: 640px) {
+.recapture {
+    margin-left: 20%;
+
+
+}
+
+/*iPhone SE*/
+@media only screen and (max-width: 640px) {
     form textarea {
         height: 100px;
+        margin-bottom: 4%;
+    }
+
+    .contact .title h1 {
+        font-size: 45px;
+        margin: -9px;
+    }
+
+    .contact .title p {
+        font-size: 13px;
     }
 
     .left__title h4 {
@@ -91,14 +111,64 @@ form textarea {
     }
 
     form {
-        margin-left: 45px;
-        width: 85%;
-    }
-    Form{
-        height: 97%;
+        margin-left: 0;
+        padding: 1rem 1rem;
     }
 
-    form button{
-        margin: 20px;
+    Form {
+        height: 76%;
+        left: 9px;
+        width: 358px;
+    }
+
+    form button {
+        margin: 26px 9px 0;
+        margin-top: -1%
+    }
+
+    .footer {
+        padding: unset;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.8rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        margin-left: 5px;
+    }
+
+    .recapture {
+        margin-left: 3%;
     }
 }
+
+/*iPhone XR*/
+/* @media only screen and (max-width: 896px) {
+    .form {
+        margin-left: 59px;
+    }
+
+    form button {
+        margin: 20px 43px 0;
+    }
+
+    } .footer {
+        padding: unset;
+   
+
+    p {
+        font-size: 1.3rem;
+        margin-left: 5px;
+    }
+
+    .recapture {
+        margin-left: 3%;
+    }
+} */

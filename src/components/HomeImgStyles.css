@@ -102,7 +102,7 @@
 
 .btn__homes:hover {
     background-color: transparent;
-    border-color:#ff9900;
+    border-color: #ff9900;
     color: #ff9900;
 }
 
@@ -126,10 +126,10 @@
 
     .image {
         height: auto;
-      }
+    }
 
-      .into-img {
+    .into-img {
         background-size: contain;
-      }
-    
+    }
+
 }

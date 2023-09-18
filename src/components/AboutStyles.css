@@ -156,8 +156,8 @@ a.download:focus {
   outline: none;
 }
 
- /* Styles for small devices and medium devices */
- @media only screen and (max-width: 640px) {
+/*iPhone SE*/
+@media only screen and (max-width: 640px) {
   .about__container {
     grid-template-columns: 1fr;
   }
@@ -189,17 +189,18 @@ a.download:focus {
   .heading h5 {
     margin-bottom: 10px;
   }
-  
+
 
   .about__me {
     width: 100%;
     margin-left: 0;
   }
 
-  .title h1{
+  .title h1 {
     text-transform: none;
     margin-left: 112px;
-    .title p{
+
+    .title p {
       margin-left: 100px;
     }
   }
@@ -255,13 +256,25 @@ a.download:focus {
 
   a.download.minimalist {
     position: unset;
-    width: 56%;
+    width: 60%;
     margin-top: 30px;
     margin-left: 100px;
     margin-bottom: 30px;
 
   }
 
+  .footer {
+    padding: unset;
+  }
+
 }
 
-@media only screen and (max-width: 787px) {}
+/*iPhone XR*/
+/* @media only screen and (max-width: 896px) {
+  .heading{
+    top: 66%;
+  }
+
+  a.download.minimalist {
+  width: 51%;
+  } */
