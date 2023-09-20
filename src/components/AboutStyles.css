@@ -71,7 +71,7 @@
 .heading__skills {
 
   position: absolute;
-  bottom: 250px;
+  bottom: 255px;
   right: 215px;
   color: #fff;
   left: 20;
@@ -101,10 +101,10 @@
   border: 1px solid #1b1a1a;
   border-radius: 5px;
   padding-right: 40px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   margin-top: 230px;
-  margin-left: 0;
+  margin-left: 8px;
   width: 100%;
   text-align: justify;
 }
@@ -112,19 +112,22 @@
 
 
 .about__me-icons {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 3fr);
+  gap: 1rem;
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  bottom: 150px;
-  right: 24px;
+  top: 560px;
+  left: 670px;
+  size: 2px;
 }
 
 .about__me-icons img {
   width: 70px;
   height: 70px;
   margin: 0 10px;
-  size: 20px;
+  size: 10px;
 }
 
 a.download.minimalist {
@@ -156,8 +159,8 @@ a.download:focus {
   outline: none;
 }
 
-/*iPhone SE*/
-@media only screen and (max-width: 640px) {
+/*Media query for iPhone SE*/
+@media screen and (max-width: 640px) {
   .about__container {
     grid-template-columns: 1fr;
   }
@@ -177,17 +180,19 @@ a.download:focus {
   .heading {
     margin-left: 0;
     left: 34%;
-    top: 88%;
+    top: 86%;
     align-items: none;
+    position: unset;
 
   }
 
   .heading h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .heading h5 {
     margin-bottom: 10px;
+    font-size: 15px;
   }
 
 
@@ -220,7 +225,7 @@ a.download:focus {
   .box p {
     width: 100%;
     margin-left: 0;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 105px;
     padding: 20px;
   }
@@ -235,12 +240,13 @@ a.download:focus {
     margin-left: 0;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 15px;
 
   }
 
   .heading__skills h1 {
     margin-left: 0;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     margin-bottom: 10px;
 
@@ -252,14 +258,15 @@ a.download:focus {
     grid-template-columns: repeat(3, 3fr);
     gap: 1rem;
     padding: 20px;
+    margin-bottom: 0;
   }
 
   a.download.minimalist {
     position: unset;
-    width: 60%;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-bottom: 30px;
+    width: 56%;
+    margin-top: 0;
+    margin-left: 90px;
+    margin-bottom: 20px;
 
   }
 
@@ -269,12 +276,94 @@ a.download:focus {
 
 }
 
-/*iPhone XR*/
-/* @media only screen and (max-width: 896px) {
-  .heading{
-    top: 66%;
+/* Media query for iPhone 5 */
+@media screen and (max-width: 768px) {
+  .about__container {
+    grid-template-columns: 1fr;
   }
 
+  .header {
+    padding: 0 10px;
+    height: 60px;
+  }
+
+  .logo {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .heading {
+    left: 0;
+    top: auto;
+  }
+
+  .heading h1 {
+    font-size: 28px; /* Adjust as needed */
+  }
+
+  .heading h5{
+    font-size: 15px;
+  }
+
+  .about__me-image img {
+    margin-left: 10px;
+    height: 330px;
+    /* margin-top: 20px; Adjust as needed */
+  }
+
+  .box p {
+    margin-top: 20px; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+  }
+
+  .heading__skills {
+    margin-top: 10px; /* Adjust as needed */
+  }
+
+  .heading__skills h1 {
+    font-size: 28px; /* Adjust as needed */
+  }
+
+  .heading__skills h5{
+    font-size: 15px;
+  }
+}
+
+/* @media screen and (max-width: 1280px) {
+  .about__me-image img{
+    margin-left: 10px;
+    height: 619px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .box p{
+    margin-left: 0px;
+  }
+
+  .heading__skills {
+    bottom: 258px;
+  }
+
+  .about__me-icons {
+    bottom: 96px;
+  }
   a.download.minimalist {
-  width: 51%;
-  } */
+  bottom: 10px;
+  }
+
+  .Form {
+    height: 80%;
+  }
+
+  .form button {
+    margin-top: -8%;
+  }
+
+.footer {
+  padding: 0rem 0;
+}
+
+} */

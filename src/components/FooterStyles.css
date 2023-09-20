@@ -40,6 +40,10 @@
     max-width: 100%;
 }
 
+.right p{
+    text-align: justify;
+}
+
 .right h4 {
     margin-left: 120px;
     color: #FF9800;
@@ -69,5 +73,16 @@ p {
 
     .footer {
         padding: 0;
+    }
+
+    .social {
+        margin-top: 1.5rem;
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+
+    .right p{
+        text-align: justify;
+        font-size: 20px;
     }
 }

@@ -8,6 +8,9 @@ import ReactImg from "../Pictures/React.bg.jpg";
 import NodeImg from "../Pictures/Node-js.bg.jpg";
 import pythonImg from "../Pictures/python.bg.jpg";
 import JavaImg from "../Pictures/Java.bg.jpg";
+import figmaImg from "../Pictures/figma.bg.jpg";
+import firebaseImg from "../Pictures/firebase.bg.jpg";
+import gitImg from "../Pictures/git.bg.jpg";
 import resume from "../Pictures/Minimalist CV Resume.pdf";
 
 const About = () => {
@@ -46,6 +49,9 @@ const About = () => {
         <img src={NodeImg} alt="" />
         <img src={pythonImg} alt="" />
         <img src={JavaImg} alt="" />
+        <img src={figmaImg} alt="" />
+        <img src={firebaseImg} alt="" />
+        <img src={gitImg} alt="" />
       </div>
 
       <a

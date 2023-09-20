@@ -55,8 +55,8 @@
     height: auto;
     margin: 25px;
     position: relative;
-    margin-left: 80px;
-    /* justify-content: space-evenly; */
+    margin-left: 70px;
+    justify-content: space-around;
 
 
 }
@@ -143,6 +143,7 @@
     }
         title h1{
             font-size: 40px;
+            margin-left: 0;
         }
 
         .title p {
@@ -151,7 +152,7 @@
 
         .project_all_card {
           grid-template-columns: 1fr;
-          margin-left: -39px;
+          margin-left: -36px
         }
 
         .project_all_card {
