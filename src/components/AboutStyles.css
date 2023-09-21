@@ -19,16 +19,16 @@
   border-radius: 2rem;
   overflow: hidden;
   transition: var(--transition);
-  margin: 5px;
+  margin: 25px;
 }
 
 .about__me-image img {
   width: 450px;
-  height: 700px;
+  height: 615px;
   border-color: #fff;
   border-style: groove;
   border-radius: 30px;
-  margin-top: 115px;
+  margin-top: 78px;
   margin-left: 30px;
 }
 
@@ -43,7 +43,7 @@
 
 .heading {
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 50%;
   text-align: center;
   margin-left: 200px;
@@ -71,7 +71,7 @@
 .heading__skills {
 
   position: absolute;
-  bottom: 255px;
+  bottom: 300px;
   right: 215px;
   color: #fff;
   left: 20;
@@ -103,7 +103,7 @@
   padding-right: 40px;
   font-size: 18px;
   line-height: 1.5;
-  margin-top: 230px;
+  margin-top: 200px;
   margin-left: 8px;
   width: 100%;
   text-align: justify;
@@ -118,14 +118,14 @@
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  top: 560px;
+  top: 550px;
   left: 670px;
   size: 2px;
 }
 
 .about__me-icons img {
-  width: 70px;
-  height: 70px;
+  width: 70%;
+  height: 70%;
   margin: 0 10px;
   size: 10px;
 }
@@ -145,7 +145,7 @@ a.download.minimalist {
   transition: all 0.5s ease;
   margin-top: 55px;
   position: absolute;
-  bottom: 55px;
+  bottom: 30px;
   right: 220px;
 }
 
@@ -216,7 +216,7 @@ a.download:focus {
 
 
   .about__me-image img {
-    width: 95%;
+    width: 335px;
     height: 493px;
     margin-top: 68px;
     margin-left: 10px;
@@ -225,8 +225,8 @@ a.download:focus {
   .box p {
     width: 100%;
     margin-left: 0;
-    font-size: 14px;
-    margin-top: 105px;
+    font-size: 20px;
+    margin-top: 205px;
     padding: 20px;
   }
 
@@ -261,6 +261,12 @@ a.download:focus {
     margin-bottom: 0;
   }
 
+  .Form {
+    left: 28px;
+    height: 65%;
+  }
+
+
   a.download.minimalist {
     position: unset;
     width: 56%;
@@ -288,7 +294,7 @@ a.download:focus {
   }
 
   .logo {
-    width: 80px; /* Adjust as needed */
+    width: 80px; 
     height: auto;
   }
 
@@ -298,7 +304,7 @@ a.download:focus {
   }
 
   .heading h1 {
-    font-size: 28px; /* Adjust as needed */
+    font-size: 28px; 
   }
 
   .heading h5{
@@ -306,64 +312,40 @@ a.download:focus {
   }
 
   .about__me-image img {
-    margin-left: 10px;
+    margin-left: 25px;
     height: 330px;
-    /* margin-top: 20px; Adjust as needed */
+    width: 325px;
   }
 
   .box p {
-    margin-top: 20px; /* Adjust as needed */
-    padding: 10px; /* Adjust as needed */
+    margin-top: 20px; 
+    padding: 10px; 
+    font-size: 18px;
   }
 
   .heading__skills {
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
   }
 
   .heading__skills h1 {
-    font-size: 28px; /* Adjust as needed */
-  }
+    font-size: 28px; /
 
   .heading__skills h5{
     font-size: 15px;
   }
+
+  .project_all_card {
+    margin-left: -18px;
+  }
+
+  Form{
+    width: 395px;
+  }
+}
 }
 
-/* @media screen and (max-width: 1280px) {
-  .about__me-image img{
-    margin-left: 10px;
-    height: 619px;
-  }
-
-  .header {
-    width: 100%;
-  }
-
-  .box p{
-    margin-left: 0px;
-  }
-
+@media only screen and (max-width: 800px) {
   .heading__skills {
-    bottom: 258px;
-  }
-
-  .about__me-icons {
-    bottom: 96px;
-  }
-  a.download.minimalist {
-  bottom: 10px;
-  }
-
-  .Form {
-    height: 80%;
-  }
-
-  .form button {
-    margin-top: -8%;
-  }
-
-.footer {
-  padding: 0rem 0;
+    bottom: 300px;
 }
-
-} */
+}
